@@ -43,6 +43,7 @@ input:focus {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100.6%;
   /* margin-bottom: 10px; */
 }
 
@@ -84,6 +85,18 @@ button:hover {
 
 .btnSearch button {
   max-width: 45%;
+}
+
+@media(max-width:767px){
+    .btnSearch button {
+        max-width: 50%;
+        font-size: 11.5px;
+      }
+
+      .btnSearch button:hover {
+        letter-spacing: 0;
+        transform: scale(none);
+      }
 }
 
 table {
